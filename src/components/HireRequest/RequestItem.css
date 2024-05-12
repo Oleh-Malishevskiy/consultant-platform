@@ -1,0 +1,60 @@
+.mailwrapper{
+ margin: 20px;
+
+ padding: 20px;
+}
+
+.mail-inside{
+    background-color: #f0f0f0b0;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    border-radius: 15px;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.mail-inside div{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 20px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button-wrapper{
+    padding-left: 40vh;
+    width: 60vh;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+
+}
+.button-wrapper button:first-child{
+  background-color: green;  
+  color: white; 
+  padding: 14px 20px; 
+  margin: 8px 0; 
+  border: none; 
+  cursor: pointer;
+  width: 100%; 
+  border-radius: 4px;
+  
+
+}.button-wrapper button:last-child{
+  background-color: red;
+  color: white; 
+  padding: 14px 20px; 
+  margin: 8px 0; 
+  border: none; 
+  cursor: pointer;
+  width: 100%; 
+  border-radius: 4px;
+  margin-left: 20px;
+
+}

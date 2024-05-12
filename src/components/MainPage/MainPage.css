@@ -1,0 +1,125 @@
+.cadr-wrapper{
+    display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+    width: 100%;
+   
+}
+.card{
+    margin: 15px;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #0c1845cc;
+    display: flex;
+}
+.card section{
+    
+    display: flex;
+    border-radius: 15px;
+    margin: 5px;
+    height: 60vh;
+    background: rgb(121,158,200);
+background: linear-gradient(184deg, rgba(121,158,200,1) 0%, rgba(33,64,99,1) 100%, rgba(31,52,82,1) 100%);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+
+
+}
+.right-section {
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.right-section div{
+    display: flex;
+    width: 100%;
+    margin: 5px;
+    border-bottom: 1px solid white;
+
+}
+.right-section div div {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+.moreInfo{
+    display: flex;
+    flex-direction: column;
+}
+.moreInfo p {
+    padding-bottom: 5px;
+    margin: 6px;
+    color: white;
+    font-family: sans-serif;
+   
+}
+.right-section div div p {
+    margin: 4px;
+    color: white;
+    font-family: sans-serif;
+}
+.card-button{
+    margin-top: 25px;
+    background-color: #3498DB; 
+  color: white; 
+  padding: 14px 20px; 
+ 
+  border: none; 
+  cursor: pointer;
+  width: 100%; 
+  border-radius: 10px;
+}
+.left-section{
+    width: 200px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.left-section div{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 200px;
+    height: 250px;
+    background-image: url('../../assets/images/card-consultant.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.left-section p {
+    color: white;
+    text-align: center;
+}
+.hero_line{
+    margin-top: 50px;
+    background-image: url('../../assets/images/get-consultant-banner.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom 300px;
+    width: 100%;
+    height: 50vh;
+    color: white;
+    font-family: sans-serif;
+
+}
+.hero_line div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 18%;
+    margin-left: 25px;
+    height: 40vh;
+    text-align: center;
+}
+.image{
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+}
+

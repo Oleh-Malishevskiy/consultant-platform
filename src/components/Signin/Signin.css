@@ -1,0 +1,63 @@
+.signin-container{
+    background-image: url('../../assets/images/signpages_back.webp');
+    background-size: contain;
+    height:max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.formlogin{
+    border-radius: 30px;
+    background: rgb(78,78,78);
+    background: linear-gradient(171deg, rgba(78,78,78,1) 0%, rgba(34,34,34,1) 57%);
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 50vh;
+    align-items: center;
+    justify-content: center;
+
+}
+.formlogin input{
+
+    color:white;
+  width: 100%; 
+  padding: 10px; 
+  margin: 8px 0 20px 0; 
+  display: inline-block;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.432);
+  box-sizing: border-box; 
+  border-radius: 5px;
+  background-color: #090909;
+}
+.error-message {
+    
+    margin-top: -10px; 
+    left: 0;
+   
+    color: #ff3860;
+    font-size: 14px; 
+    padding: 0;
+   
+    
+  }
+
+.formlogin h1{
+    color: white;
+    font-family: sans-serif;
+}
+.formlogin button{
+    background-color: #3498DB; 
+  color: white; 
+  padding: 14px 20px; 
+  margin: 8px 0; 
+  border: none; 
+  cursor: pointer;
+  width: 100%; 
+  border-radius: 4px;
+}
+.formlogin button:hover {
+    background-color: #2980B9;
+  }
