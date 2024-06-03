@@ -44,13 +44,7 @@ export default function HomePage() {
             </div>
         </section>
     </main>
-    <section class="black_line">
-    </section>
-    <section class="under_banner">
-    </section>
-    <section class="info_section">
-        
-    </section>
+   
     </div>
     </div>
   );

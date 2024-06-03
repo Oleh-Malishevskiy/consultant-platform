@@ -1,0 +1,234 @@
+[
+    {
+        "company": "3M",
+        "symbol": "MMM",
+        "description": "3M, based in Minnesota, may be best known for its Scotch tape and Post-It Notes...",
+        "initial_price": 44.28,
+        "price_2002": 56.27,
+        "price_2007": 95.85,
+        "historical_prices": [45.00, 46.20, 47.50, 48.00, 49.10, 50.00],
+        "expected_return": 0.08,
+        "variance": 0.02
+    },
+    {
+        "company": "Amazon.com",
+        "symbol": "AMZN",
+        "description": "Amazon.com, Inc. is an online retailer in North America and internationally...",
+        "initial_price": 89.38,
+        "price_2002": 17.01,
+        "price_2007": 93.43,
+        "historical_prices": [90.00, 91.50, 92.00, 93.00, 94.50, 95.00],
+        "expected_return": 0.12,
+        "variance": 0.03
+    },
+    {
+        "company": "Campbell Soup",
+        "symbol": "CPB",
+        "description": "Campbell Soup is a worldwide food company, offering condensed and ready-to-serve soups...",
+        "initial_price": 37.0,
+        "price_2002": 22.27,
+        "price_2007": 36.4,
+        "historical_prices": [38.00, 39.20, 40.50, 41.00, 42.10, 43.00],
+        "expected_return": 0.05,
+        "variance": 0.01
+    },
+    {
+        "company": "Disney",
+        "symbol": "DIS",
+        "description": "The Walt Disney Company, founded in 1923, is a worldwide entertainment company...",
+        "initial_price": 40.68,
+        "price_2002": 15.24,
+        "price_2007": 35.47,
+        "historical_prices": [41.00, 42.20, 43.50, 44.00, 45.10, 46.00],
+        "expected_return": 0.07,
+        "variance": 0.015
+    },
+    {
+        "company": "Dow Chemical",
+        "symbol": "DOW",
+        "description": "The Dow Chemical Company manufactures raw materials that go into consumer products and services...",
+        "initial_price": 38.83,
+        "price_2002": 27.65,
+        "price_2007": 44.67,
+        "historical_prices": [39.00, 40.20, 41.50, 42.00, 43.10, 44.00],
+        "expected_return": 0.06,
+        "variance": 0.02
+    },
+    {
+        "company": "Exxon Mobil",
+        "symbol": "XOM",
+        "description": "Exxon Mobil engages in the exploration and production of crude oil and natural gas...",
+        "initial_price": 39.0,
+        "price_2002": 32.82,
+        "price_2007": 91.36,
+        "historical_prices": [40.00, 41.50, 42.00, 43.00, 44.50, 45.00],
+        "expected_return": 0.09,
+        "variance": 0.025
+    },
+    {
+        "company": "Ford",
+        "symbol": "F",
+        "description": "Ford Motor Co. develops, manufactures, sells and services vehicles and parts worldwide...",
+        "initial_price": 27.34,
+        "price_2002": 9.63,
+        "price_2007": 8.37,
+        "historical_prices": [28.00, 29.20, 30.50, 31.00, 32.10, 33.00],
+        "expected_return": 0.04,
+        "variance": 0.01
+    },
+    {
+        "company": "The Gap",
+        "symbol": "GPS",
+        "description": "The Gap, Inc. sells retail clothing, accessories and personal care products globally...",
+        "initial_price": 46.0,
+        "price_2002": 11.56,
+        "price_2007": 18.9,
+        "historical_prices": [47.00, 48.20, 49.50, 50.00, 51.10, 52.00],
+        "expected_return": 0.05,
+        "variance": 0.015
+    },
+    {
+        "company": "General Mills",
+        "symbol": "GIS",
+        "description": "General Mills manufactures and sells consumer foods worldwide...",
+        "initial_price": 15.59,
+        "price_2002": 22.1,
+        "price_2007": 28.76,
+        "historical_prices": [16.00, 17.20, 18.50, 19.00, 20.10, 21.00],
+        "expected_return": 0.04,
+        "variance": 0.01
+    },
+    {
+        "company": "Hewlett Packard",
+        "symbol": "HPQ",
+        "description": "Hewlett-Packard designs and sells products, technologies, software and IT services...",
+        "initial_price": 66.28,
+        "price_2002": 12.03,
+        "price_2007": 50.9,
+        "historical_prices": [67.00, 68.20, 69.50, 70.00, 71.10, 72.00],
+        "expected_return": 0.07,
+        "variance": 0.02
+    },
+    {
+        "company": "IBM",
+        "symbol": "IBM",
+        "description": "IBM is an international IT company...",
+        "initial_price": 118.37,
+        "price_2002": 60.36,
+        "price_2007": 116.3,
+        "historical_prices": [119.00, 120.20, 121.50, 122.00, 123.10, 124.00],
+        "expected_return": 0.08,
+        "variance": 0.03
+    },
+
+    {
+        "company": "Microsoft",
+        "symbol": "MSFT",
+        "description": "Microsoft develops, manufactures, licenses, and supports a range of software products...",
+        "initial_price": 55.72,
+        "price_2002": 22.62,
+        "price_2007": 29.84,
+        "historical_prices": [56.00, 57.20, 58.50, 59.00, 60.10, 61.00],
+        "expected_return": 0.06,
+        "variance": 0.02
+    },
+    {
+        "company": "Monsanto",
+        "symbol": "MO",
+        "description": "Monsanto provides agricultural products for farmers in the United States and internationally...",
+        "initial_price": 11.47,
+        "price_2002": 7.2,
+        "price_2007": 86.93,
+        "historical_prices": [12.00, 13.20, 14.50, 15.00, 16.10, 17.00],
+        "expected_return": 0.08,
+        "variance": 0.02
+    },
+    {
+        "company": "PepsiCo",
+        "symbol": "PEP",
+        "description": "PepsiCo, Inc. manufactures, markets, and sells various foods, snacks, and carbonated and non-carbonated beverages worldwide...",
+        "initial_price": 34.13,
+        "price_2002": 36.69,
+        "price_2007": 73.74,
+        "historical_prices": [35.00, 36.20, 37.50, 38.00, 39.10, 40.00],
+        "expected_return": 0.06,
+        "variance": 0.015
+    },
+    {
+        "company": "Starbucks",
+        "symbol": "SBUX",
+        "description": "Starbucks Corp. provides specialty coffee and tea beverages, packaged and ground coffee beans, single-serve products...",
+        "initial_price": 6.23,
+        "price_2002": 10.5,
+        "price_2007": 26.84,
+        "historical_prices": [7.00, 8.20, 9.50, 10.00, 11.10, 12.00],
+        "expected_return": 0.07,
+        "variance": 0.02
+    },
+    {
+        "company": "Texas Instruments",
+        "symbol": "TXN",
+        "description": "Texas Instruments designs and sells semiconductors to electronics designers and manufacturers worldwide...",
+        "initial_price": 53.88,
+        "price_2002": 15.58,
+        "price_2007": 36.54,
+        "historical_prices": [54.00, 55.20, 56.50, 57.00, 58.10, 59.00],
+        "expected_return": 0.07,
+        "variance": 0.02
+    },
+    {
+        "company": "Time Warner",
+        "symbol": "TWX",
+        "description": "Time Warner is a media and entertainment company in the United States and internationally...",
+        "initial_price": 221.25,
+        "price_2002": 36.36,
+        "price_2007": 57.18,
+        "historical_prices": [222.00, 223.20, 224.50, 225.00, 226.10, 227.00],
+        "expected_return": 0.06,
+        "variance": 0.025
+    },
+    {
+        "company": "United Health",
+        "symbol": "UNH",
+        "description": "UnitedHealth Group provides healthcare services in the United States...",
+        "initial_price": 7.66,
+        "price_2002": 21.85,
+        "price_2007": 47.7,
+        "historical_prices": [8.00, 9.20, 10.50, 11.00, 12.10, 13.00],
+        "expected_return": 0.08,
+        "variance": 0.02
+    },
+    {
+        "company": "Walmart",
+        "symbol": "WMT",
+        "description": "Walmart operates retail stores, warehouse clubs, online stores and small markets worldwide...",
+        "initial_price": 56.5,
+        "price_2002": 50.51,
+        "price_2007": 47.53,
+        "historical_prices": [57.00, 58.20, 59.50, 60.00, 61.10, 62.00],
+        "expected_return": 0.05,
+        "variance": 0.015
+    },
+    {
+        "company": "Whirlpool",
+        "symbol": "WHR",
+        "description": "Whirlpool manufactures and sells home appliances worldwide...",
+        "initial_price": 58.25,
+        "price_2002": 46.82,
+        "price_2007": 94.29,
+        "historical_prices": [59.00, 60.20, 61.50, 62.00, 63.10, 64.00],
+        "expected_return": 0.06,
+        "variance": 0.02
+    },
+    {
+        "company": "Xerox",
+        "symbol": "XRX",
+        "description": "Xerox Corporation engages in the development, manufacture, marketing, service, and finance of document equipment...",
+        "initial_price": 20.87,
+        "price_2002": 5.26,
+        "price_2007": 17.54,
+        "historical_prices": [21.00, 22.20, 23.50, 24.00, 25.10, 26.00],
+        "expected_return": 0.05,
+        "variance": 0.015
+    }
+]

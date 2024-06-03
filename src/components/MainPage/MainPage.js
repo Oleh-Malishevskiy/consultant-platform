@@ -62,7 +62,7 @@ function MainPage({ authUser }) {
         <section className='card'>
             <section className='left-section'>
                 <div className='image'></div>
-                <p>sofafaenfaflkmksmsa falkfjakjflka fjakfalc fkjalka</p>
+                <p>About info</p>
             </section>
             <section className='right-section'>
                 <div>

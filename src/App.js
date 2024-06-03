@@ -11,13 +11,14 @@ import useAuth from './components/GetUser';
 import HirePage from './components/HirePage/HirePage';
 import HireRequest from './components/HireRequest/HireRequest';
 import ChatPage from './components/CommunicationPage/CommunicationPage';
-
+import Footer from './components/Footer/Footer';
 function App() {
   const authUser = useAuth();
   const MainAppLayout = () => (
     <> 
     <Navbar/>
-          <Outlet />    
+          <Outlet /> 
+     <Footer/>        
     </>
   );
   const LoginPageLayout = () => (

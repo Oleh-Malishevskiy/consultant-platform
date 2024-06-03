@@ -1,0 +1,73 @@
+.create-card-wrapper{
+    width: 100%;
+    
+    justify-content: center;
+    align-items: center ;
+}
+.create-card-wrapper form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-form{
+    margin: 30px;
+    width: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+   
+    border-radius: 15px;
+
+}
+.profile-form section {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+.profile-form section section{
+    display: flex;
+    flex-direction: column;
+}
+.button-section{
+    display: flex;
+    flex-direction: row !important;
+}
+.profile-form section section input{
+    color:rgb(0, 0, 0);
+  width: 40vh; 
+  padding: 10px; 
+  margin: 8px 5px 20px 5px; 
+  display: inline-block;
+  border: 1px solid rgba(30, 26, 26, 0.432);
+  box-sizing: border-box; 
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+.button-section button{
+    background-color: #3498DB;  
+  color: rgb(0, 0, 0); 
+  padding: 10px 10px; 
+  margin: 8px 0; 
+  border: 1px solid white; 
+  cursor: pointer;
+  width: 100%; 
+  border-radius: 4px;
+  text-decoration: none;
+  width: 38vh;
+  margin: 20px;
+  border-radius: 8px;
+}
+.button-section button:last-child {
+    background-color: red;
+
+}
+.button-section button:hover {
+    background-color: #2980B9;
+}
+.button-section button:last-child:hover {
+    background-color: #b01414;
+}

@@ -1,0 +1,92 @@
+.hire-page-wrapper{
+    width: 100;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.consultant-info{
+    display: flex;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 60px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    padding: 20px;
+}
+.rigth-side section{
+    display: flex;
+
+}
+.image_card_info{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-size: contain;
+    background-position: center;
+    
+    
+}
+.rigth-side section div:last-child{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+.rigth-side section div:last-child p {
+    margin: 5px;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: -10px;
+}
+.rigth-side h1{
+    margin-left: 20px;
+    margin-bottom: -10px;
+}
+.leftside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+   
+}
+.side_second h1{
+    margin-left: 20px;
+  
+    
+
+}
+.side_second section div div p {
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+    
+   
+}
+.contain{
+    
+    padding-top: 75px;
+}
+.hire_button{
+    background-color: #3498DB;  
+    color: rgb(0, 0, 0); 
+    padding: 10px 10px; 
+    margin: 8px 0; 
+    border: 1px solid white; 
+    cursor: pointer;
+    color: white;
+    width: 100%; 
+    border-radius: 4px;
+    text-decoration: none;
+    width: 38vh;
+    margin: 20px;
+    border-radius: 8px;
+}
+.about_text{
+    margin-top: -10px;
+}
+.leftside img{
+    width: 41vh;
+    height: 60vh;
+}

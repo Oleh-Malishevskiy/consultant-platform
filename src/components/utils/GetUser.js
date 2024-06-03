@@ -8,7 +8,7 @@ function useAuth() {
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, user => {
             if (user) {
-                console.log("User is authenticated:", user.uid); 
+                console.log("User is authenticated:", user.uid); // Check the console to see this output
                 setAuthUser(user);
             } else {
                 console.log("No user is authenticated.");
@@ -16,7 +16,7 @@ function useAuth() {
             }
         });
 
-        return () => unsubscribe(); 
+        return () => unsubscribe(); // Cleanup subscription
     }, [auth]);
 
     return authUser;
