@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Line } from 'react-chartjs-2';
 import 'chart.js/auto';
-import { calculateBollingerBands1 } from './FinanceApi'; 
+import { calculateBollingerBands1 } from '../components/FinanceApi'; 
 const FinancialModeling = () => {
   const datasets = {
     set1: [220, 222, 218, 221, 223, 225, 227, 229, 230, 228, 227, 225, 230, 232, 234, 236, 238, 240, 242, 243],

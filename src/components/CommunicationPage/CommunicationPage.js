@@ -3,8 +3,8 @@ import { useParams } from 'react-router-dom';
 import { db, realtimeDb } from '../../firebase-config';
 import { doc, getDoc, collection, addDoc, query, orderBy, onSnapshot } from 'firebase/firestore';
 import { ref, set, remove, onValue } from "firebase/database";
-import { fetchUserProfile } from '../../components/GetProfiles';
-import MarketOverviewWidget from '../FinanceApi';
+import { fetchUserProfile } from '../utils/GetProfiles';
+import MarketOverviewWidget from '../utils/FinanceApi';
 import stockData from '../Data/stockData.json';
 import './CommunicationPage.css';
 import {

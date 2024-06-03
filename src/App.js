@@ -7,7 +7,7 @@ import MainPage from './components/MainPage/MainPage';
 import { Outlet } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import AdvisorProfile from './components/ConsultantProfile/ConsultantProfile';
-import useAuth from './components/GetUser';
+import useAuth from './components/utils/GetUser';
 import HirePage from './components/HirePage/HirePage';
 import HireRequest from './components/HireRequest/HireRequest';
 import ChatPage from './components/CommunicationPage/CommunicationPage';
